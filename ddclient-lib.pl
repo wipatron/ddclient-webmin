@@ -2756,7 +2756,7 @@ sub print_r {
     our $level;
     our @level_index;
     if ( ! defined $level ) { $level = 0 };
-    if ( ! defined @level_index ) { $level_index[$level] = 0 };
+    if ( !@level_index ) { $level_index[$level] = 0 };
 
     for ( @_ ) {
         my $element = $_;
