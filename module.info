@@ -1,0 +1,9 @@
+name=ddclient
+desc=Dynamic DNS Client
+longdesc=A perl based client to update your dynamic IP address at DynDNS.com (or other dynamic DNS services), allowing you and others to use a fixed hostname (myhost.dyndns.org) to access your machine.
+os_support=debian-linux
+category=net
+version=1.470
+risk=low medium high
+depends=proc 1.450
+readonly=1

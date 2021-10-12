@@ -1,0 +1,15 @@
+exec=Executable and Runtime options,11
+exec1=Location of Executable,8 
+exec2=Location of RC Update Utility,8
+exec3=Location of Sendmail Utility,8
+init1=Location of Init Script,8 
+conf=Configuration Files,11
+conf1=Location of Config File,8
+conf2=Location of Daemon Config Script,8
+cache=Misc Paths,11
+cache1=Location of Cache Path,8
+pid1=Location of PID File,8
+log1=Log File Directory,7
+cmd=Command Line Parameters,11
+cmd1=Default Command Line Parameters,0
+cmd2=Location of File Containing Defaults,8

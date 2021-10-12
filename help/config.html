@@ -1,0 +1,50 @@
+<header>Config File Help</header>	
+<p>
+There are five main tabs which serve to group the config file options by function.
+Each option has an explanation to the right.  For more information, click on "Search Docs" to the top right of the screen.
+<ul>
+<li>
+<b>Basic Daemon</b>
+<br>Common options
+</li>
+<li>
+<b>Advanced Daemon</b>
+<br>System related functions pertaining to the operation of ddclient.
+</li>
+<li>
+<b>Servers/Protocols</b>
+<br>Select the desired protocol from the dropdown menu.  
+You must then click the "Protocol" button for the options pertinent to that protocol to appear.
+Note that each protocol has its own specific set of options.
+Every selection must, however, always include the "server", "login", and "password" options to be filled in.
+</li>
+<li>
+<b>Routers/IP Acquisition</b>
+<br>This tab contains options specific to the method by which your local ddclient will obtain its IP address information.
+Use the dropdown menu next to "use" to choose this option.  Next click on the "Use" button to process your choice.
+The module will then present you with sub-options specific to the method chosen.
+</li>
+<li>
+<b>/etc/default Options</b>
+<br>This tab contains information which is typically only contained in the /etc/default/ddclient file.
+</li>
+</ul>
+<p>
+There are three buttons used in the Config File maintenance:
+<ul>
+<li>
+<b>Previous</b>
+<br>Use this button if you need to retrieve the previous set of config files (created before you execute any save).
+</li>
+<li>
+<b>Update</b>
+<br>Use this button to write changes to the /etc/ddclient.conf and /etc/default/ddclient files.  
+A validation will first take place, identifying any errors detected.  If an error is detected, the files will not be written.
+</li>
+<li>
+<b>Validate</b>
+<br>This is a safe option which makes no changes.  It only validates the options you've chosen so far, 
+and then displays below what the configuration file would look like if written.  Also, any errors detected are displayed.
+</li>
+</ul>
+<footer>

@@ -1,0 +1,11 @@
+exec1=/usr/sbin/ddclient
+exec2=/usr/sbin/update-rc.d
+exec3=/usr/sbin/sendmail
+init1=/etc/init.d/ddclient
+conf1=/etc/ddclient.conf
+conf2=/etc/default/ddclient
+cache1=/var/cache/ddclient/ddclient.cache
+pid1=/var/run/ddclient.pid
+log1=/var/log/
+cmd1=-noverbose -nodebug -use=ip -timeout=0 -noretry -nossl -noforce -nosyslog -priority=notice -facility=daemon -cache=/var/cache/ddclient/ddclient.cache
+cmd2=/etc/webmin/ddclient/ddclient_cmd_line_params.txt

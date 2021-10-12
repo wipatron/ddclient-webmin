@@ -1,0 +1,66 @@
+<header>Manual IP Update Help</header>
+<p>
+There are five main tabs which serve to group the Manual IP Update options by function.
+Each option has an explanation to the right.  For more information, click on "Search Docs" to the top right of the screen.
+<p>
+The basic operation of the Manual IP Update function is as follows:
+<ul>
+<li>
+<b>Configuration Tabs</b>
+<br>Configure the parameters in each of the four tabs as desired.  An explanation of the tabs is shown below.
+</li>
+<li>
+<b>Build Button</b>
+<br>Click on the "Build" button to transfer the values you have chosen from the configuration tabs into the command line edit box.
+</li>
+<li>
+<b>Manual Edits</b>
+<br>You can, at any time, manually edit the command line parameters.
+</li>
+<li>
+<b>Test Button</b>
+<br>You can now click on the "Test" button to see if the parameters you have so far entered into the command line,
+either through manual edits, or using the configuration tabs and clicking on "Build", will work.  ddclient is invoked, 
+but with the "-noexec", "-verbose", and "-debug" modes enabled.  No action will take place, and you will have a chance 
+to diagnose any problems.
+</li>
+<li>
+<b>Run Button</b>
+<br>When you click on the "Run" button, any parameters currently in the command line edit box are run against the ddclient command.  
+Output is shown immediately below the screen.
+</li>
+<li>
+<b>Save Button</b>
+<br>Once you have a good working set of command line parameters, you can click "save" to save them to a seperate configuration file for future use.
+</li>
+<li>
+<b>Previous Button</b>
+<br>Use this button if you want to retrieve the previous set of parameters.
+</li>
+</ul>
+<p>
+Here is an explanation of the operation of the configuration tab screens:
+<ul>
+<li>
+<b>Usage</b>
+<br>Common options
+</li>
+<li>
+<b>Advanced Usage</b>
+<br>System related functions pertaining to the operation of ddclient.
+</li>
+<li>
+<b>Servers/Protocols</b>
+<br>Select the desired protocol from the dropdown menu.  
+You must then click the "Protocol" button for the options pertinent to that protocol to appear.
+Note that each protocol has its own specific set of options.
+Every selection must, however, always include the "server", "login", and "password" options to be filled in.
+</li>
+<li>
+<b>Routers/IP Acquisition</b>
+<br>This tab contains options specific to the method by which your local ddclient will obtain its IP address information.
+Use the dropdown menu next to "use" to choose this option.  Next click on the "Use" button to process your choice.
+The module will then present you with sub-options specific to the method chosen.
+</li>
+</ul>
+<footer>
